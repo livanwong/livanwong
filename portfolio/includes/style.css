@@ -1,0 +1,133 @@
+/*
+Theme Name: Your theme's name
+Theme URI: Your theme's URL
+Description: A brief description of your theme
+Version: 1.0 or any other version you want
+Author: Your name or WordPress.org's username
+Author URI: Your web address
+Tags: Tags to locate your theme in the WordPress theme repository
+*/
+.color {
+	background-color: #D76E6E;
+}
+body, html {
+	background-color: #FFCCCC;
+}
+#Home {
+	text-align: center;
+}
+#About {
+	background-color: #D76E6E;
+}
+#Contact {
+	text-align: center;
+	background-color: #D76E6E;
+}
+.contacthalf {
+	text-align: center;
+}
+.white {
+	color: white;
+}
+.divider {
+}
+.logo {
+	height: auto;
+    width: auto;
+    max-height: 250px;
+    max-width: 150px;
+}
+.aboutbackground {
+	height: 100vh;
+}
+.aboutsection {
+	text-align: center;
+	border-style: groove;
+	border-color:pink;
+	border-width: 25px;
+}
+.linkbox {
+	overflow: hidden;
+	background-color: #D76E6E;
+}
+.linkitem {
+	float: le;
+	background-color: #FFAAAA;
+	padding: 20px;
+	font-size: 20px;
+}
+.right {
+	float: right;
+}
+.footer {
+	display: flex;
+	background-color: #FFAAAA;
+}
+.footerlink {
+	display: flex;
+	flex-direction: column;
+}
+.slidebutton {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.herobackground {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+		background: url(../images/water.gif) no-repeat center / cover;
+	height: 100vh;
+}
+.herosection {
+	padding: 300px;
+	border: 20px;
+}
+.slides {
+	display: none;
+	text-align: center;
+}
+.slideimage {
+	height: 400px;
+	max-width: 800px;
+	width: 100%;
+}
+.footercopy {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.con {
+	width: 90%;
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.leftabout {
+	width: 50%;
+	height: 600px;
+	background: url(../images/water.gif) no-repeat center / cover;
+	border-radius: 10px;
+}
+.rightabout {
+	width: 50%;
+	min-height: 400px;
+	background-color: #FFCCCC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	border-radius: 10px;
+	color: black;
+	margin-left: -75px;	
+}
+.fa {
+padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+}
