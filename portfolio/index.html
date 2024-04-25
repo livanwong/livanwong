@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="includes/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Livan Wong Portfolio</title>
+	<div class="linkbox linkitem">
+		<a href="">Livan Wong</a>
+		<div class="right">
+			<a class="linkitem" href="#Home">Home</a> 
+  			<a class="linkitem" href="#About">About</a>
+  			<a class="linkitem" href="#Works">Works</a>
+  			<a class="linkitem" href="#Contact">Contact</a>
+		</div>
+	</div>
+</head>
+<body>
+	<div id="Home" class="divider">
+		<div class="color herobackground">
+			<div class="herosection">
+				 <h1 id="Hero" class="Header 1 white"></h1>
+			</div>
+		</div>
+	</div>
+	<hr>	
+	<div id="About" class="divider">
+		<h1 class="">About Me</h1>
+		<div class="con">
+			<div class="leftabout"></div>
+			<div class="rightabout">
+				<div class="content">
+					<p>	I was born and raised in Los Angeles, California. I attended Humboldt State University in 2018. I took a break and moved to Pennylvania, being part time at Hagerstown Community in 2020. I plan to 
+				 		graduate this year in 2024 and pursue work as a Web Developer. I chose Web Development because working 
+				 		with computers and software in general is a passion I have been interested in at a young age. Making the 
+				 		world a better place through code is a goal of mine.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="divider">
+			<div class="color container-fluid">
+
+	<h3 id="Works" class="Header 3">Projects</h3>
+				<div class="row">
+					<div class="slides col-sm-12">
+						<div><a href="https://dev-livanwong.pantheonsite.io/"><img class="slideimage" src="images/drum.png"></img></a></div>
+						<div>A drumkit app from a Udemy course.</div>
+					</div>
+					<div class="slides col-sm-12">
+						<div><a href="https://dev-lwtestsite.pantheonsite.io/"><img class="slideimage" src="images/pantheon.png"></a></div>
+						<div>Mock Wordpress website made in my Web 220 class.</div>
+					</div>
+					<div class="slides col-sm-12">
+						<div><a href="https://dev-livanwong.pantheonsite.io/"><img class="slideimage" src="images/bank.png"></img></a></div>
+						<div>Mock Bank Website for last year's Web 200 class.</div>
+					</div>
+					<div class="slidebutton col-sm-6">
+						<button onclick="plusSlides(-1)">Prev</button>		
+					</div>
+					<div class="slidebutton col-sm-6">
+						<button onclick="plusSlides(1)">Next</button>
+					</div>
+				</div>
+			</div>
+		<br>
+	</div>
+	<hr>
+	<div class="container">
+	 <div class="row">
+		<div class="contacthalf col-6">
+			<h1>Contact Me!</h1>
+			<p>You can email me personally with the contact form below. You can also follow my handles down below. I would love to get to know you!</p>
+		</div>
+		<div id="Contact" class="col-6">
+		<input type="text" id="fullName" placeholder="Full Name" required /><br/>
+		<input type="email" id="email_id" placeholder="Email Id" required /><br/>
+		<textarea id="message" placeholder="Message" required></textarea> <br/>
+		<button onclick="SendMail()">Send</button>
+		</div>	
+	 </div>
+	</div>
+
+	<hr>
+</body>
+<footer class="footer">
+	<div class="footerlink">
+		<a class="linkitem" href="#Home">Home</a> 
+  		<a class="linkitem" href="#About">About</a>
+  		<a class="linkitem" href="#Works">Works</a>
+  		<a class="linkitem" href="#Contact">Contact</a>
+	</div>
+  	<div class="footercopy container">
+  		<div class="row">
+  			<div>
+		<a href="https://github.com/livanwong" class="fa fa-github fa-5x"></a>
+		<a href="https://www.linkedin.com/in/livan-wong-b6182a2b5" class="fa fa-linkedin fa-5x"></a>
+  		</div>
+
+		<div>
+			
+		<h1>Livan Wong</h1>
+		<p>&copy; 2024</p>
+		</div>
+  		</div>
+  		
+	</div>
+</footer>
+<script type="text/javascript" src="includes/script.js"></script>
+	<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+	</script>
+	<script type="text/javascript">
+   		(function(){
+      	emailjs.init({
+        publicKey: "3In_-0NK8R8dtsQhn",
+      		});
+   		})();
+	</script>
+</html>
