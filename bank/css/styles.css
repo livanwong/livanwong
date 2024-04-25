@@ -1,0 +1,116 @@
+body {
+  background-attachment: fixed;
+}
+.bodybg {
+  height: 100%;
+  background-color: #F2F3F4;
+}
+.purple {
+  background-color: #693f62;
+}
+.green {
+  background-color: #68b174;
+}
+.white {
+  background-color: #F2F3F4;
+}
+.hidden {
+  visibility: hidden;
+}
+.middle {
+  margin: auto;
+}
+.icon {
+  max-width: 100%;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+.active, .accordion:hover {
+  background-color: #68b174;
+}
+.corg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+.purplebg {
+  background-color: #693f62;
+}
+.padded {
+  padding: 2.5em;
+}
+#toBeUpdated {
+  background-color: white;
+}
+.tableRow1:hover {
+  background-color: white;
+  transition: 4s;
+}
+.tableRow2:hover {
+  background-color: #68b174;
+  transition: 4s;
+}
+.tableRow3:hover {
+  background-color: #693f62;
+  transition: 4s;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 1s;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.slider-body {
+  display: grid;
+  place-items: center;
+}
+.slider {
+  width: 100%;
+  height: 32em;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 32em;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  cursor: pointer;
+  background-color: white;
+  font-size: 20px;
+}
+
+.btn-prev {
+  top: 50%;
+  left: 2%;
+}
+
+.btn-next {
+  top: 50%;
+  right: 2%;
+}
